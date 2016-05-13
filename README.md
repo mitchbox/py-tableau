@@ -42,6 +42,8 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
 
     * Save file (press ":wq" to exit)
 
+    * After modified, remember to restart virtual env
+
 
 ### Run Server
 
@@ -57,6 +59,12 @@ python manage.py runserver --host 0.0.0.0
   ```
   GET http://<your-ip>/tableau/ticket
   ```
+
+    Request Header
+
+    ```
+    Username: 'tableau-server-username'
+    ```
 
     Response Body
 
