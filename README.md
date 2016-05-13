@@ -63,7 +63,7 @@ python manage.py runserver --host 0.0.0.0
     Request Header
 
     ```
-    Username: 'tableau-server-username'
+  Username: 'tableau-server-username'
     ```
 
     Response Body
@@ -80,13 +80,15 @@ python manage.py runserver --host 0.0.0.0
   GET/POST http://<your-ip>/tableau/<tableau-rest-api-uri>
   ```
 
-    Tableau Server Sign In API
+    #### Example:
+
+    Tableau Server API - Sign In
 
     ```
   POST /api/<api-version>/auth/signin
     ```
 
-    Usage Method
+    Proxy Usage Method
 
     ```
   POST http://<your-ip>/tableau/api/<api-version>/auth/signin
