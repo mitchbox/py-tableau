@@ -18,6 +18,11 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
 * [Trusted Authentication Setup](http://onlinehelp.tableau.com/current/server/en-us/help.htm#trusted_auth.htm%3FTocPath%3DAdministrator%2520Guide%7CTrusted%2520Authentication%7C_____0)
 
 
+### Python Development Environment Setup
+
+* [Python Development Env](https://medium.com/@mitchbox/python-%E9%96%8B%E7%99%BC%E7%92%B0%E5%A2%83%E8%A8%AD%E5%AE%9A-9a7acbd1cf33#.ca9kjpqb8)
+
+
 ### Environment Setup
 
   * Using **pip** install required packages
