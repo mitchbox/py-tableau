@@ -21,7 +21,47 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
 ### Environment Setup
 
   * Using **pip** install required packages
-  
+
   ```
   pip install -r requirements.txt
+  ```
+
+  * Config Setup
+
+    * Open terminal, edit postactivate (work on virtual env)
+    
+    ```
+    vi $VIRTUAL_ENV/bin/postactivate
+    ```
+
+    * Add environment variable (press "i" to insert)
+
+    ```
+    export APP_SETTINGS=“config.DevelopmentConfig"
+    ```
+
+    * Save file (press ":wq" to exit)
+
+
+### Run Server
+
+```
+python manage.py runserver --host 0.0.0.0
+```
+
+
+### REST API
+
+  * Get Ticket for Display Tableau View
+
+  ```
+  GET http://<your-ip>/tableau/ticket
+  ```
+
+  * Response Body
+
+  ```
+  {
+    'ticket': your-ticket-from-tableau
+  }
   ```
