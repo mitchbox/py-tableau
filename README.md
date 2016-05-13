@@ -49,6 +49,12 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
 
     * After modified, remember to restart virtual env
 
+    * Edit config.py
+
+    ```
+    TABLEAU_URL = 'http://<your-tableau-server-ip>'
+    ```
+
 
 ### Run Server
 
