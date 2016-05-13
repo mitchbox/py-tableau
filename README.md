@@ -72,13 +72,13 @@ python manage.py runserver --host 0.0.0.0
   GET/POST http://<your-ip>/tableau/<tableau-rest-api-uri>
   ```
 
-    * Tableau Server Sign In API
+    Tableau Server Sign In API
 
     ```
     POST /api/<api-version>/auth/signin
     ```
 
-    * Usage
+    Usage Method
 
     ```
     POST http://<your-ip>/tableau/api/<api-version>/auth/signin
