@@ -29,7 +29,7 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
   * Config Setup
 
     * Open terminal, edit postactivate (work on virtual env)
-    
+
     ```
     vi $VIRTUAL_ENV/bin/postactivate
     ```
@@ -58,8 +58,8 @@ python manage.py runserver --host 0.0.0.0
   GET http://<your-ip>/tableau/ticket
   ```
 
-    * Response Body
-    
+    Response Body
+
     ```
     {
       'ticket': your-ticket-from-tableau
