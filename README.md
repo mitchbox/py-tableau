@@ -58,10 +58,28 @@ python manage.py runserver --host 0.0.0.0
   GET http://<your-ip>/tableau/ticket
   ```
 
-  * Response Body
+    * Response Body
+    
+    ```
+    {
+      'ticket': your-ticket-from-tableau
+    }
+    ```
+
+  * Tableau REST API Proxy
 
   ```
-  {
-    'ticket': your-ticket-from-tableau
-  }
+  GET/POST http://<your-ip>/tableau/<tableau-rest-api-uri>
   ```
+
+    * Tableau Server Sign In API
+
+    ```
+    POST /api/<api-version>/auth/signin
+    ```
+
+    * Usage
+
+    ```
+    POST http://<your-ip>/tableau/api/<api-version>/auth/signin
+    ```
