@@ -6,7 +6,7 @@ A simple proxy for Tableau Server REST API that implement with Python, Flask, Fl
 
 ### Stack
 
-* [Flask](http://flask.pocoo.org/){:target="_blank"}
+* [Flask](http://flask.pocoo.org/)
 * [Flask-RESTful](http://flask-restful-cn.readthedocs.io/en/0.3.4/)
 * [Requests](http://docs.python-requests.org/en/master/)
 * [Tableau Server](http://www.tableau.com/products/server)
