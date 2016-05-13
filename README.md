@@ -61,9 +61,9 @@ python manage.py runserver --host 0.0.0.0
     Response Body
 
     ```
-    {
-      'ticket': your-ticket-from-tableau
-    }
+  {
+    'ticket': your-ticket-from-tableau
+  }
     ```
 
   * Tableau REST API Proxy
