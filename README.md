@@ -75,11 +75,11 @@ python manage.py runserver --host 0.0.0.0
     Tableau Server Sign In API
 
     ```
-    POST /api/<api-version>/auth/signin
+  POST /api/<api-version>/auth/signin
     ```
 
     Usage Method
 
     ```
-    POST http://<your-ip>/tableau/api/<api-version>/auth/signin
+  POST http://<your-ip>/tableau/api/<api-version>/auth/signin
     ```
