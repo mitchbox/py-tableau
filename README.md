@@ -80,7 +80,7 @@ python manage.py runserver --host 0.0.0.0
   GET/POST http://<your-ip>/tableau/<tableau-rest-api-uri>
   ```
 
-    #### Example:
+    **Example:**
 
     Tableau Server API - Sign In
 
